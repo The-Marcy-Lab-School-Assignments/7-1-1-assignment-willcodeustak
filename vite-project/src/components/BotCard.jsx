@@ -19,7 +19,7 @@ const BotClassIcon = (bot_class) => {
 // - Do NOT use a <Link> component to accomplish this. Use the `useNavigate` hook instead.
 
 const BotCard = ({ bot }) => {
-
+/** FEEDBACK: Is this hwo we use navigate? What import is missing? Before we use navigate what should we be doing? */
   const handleClick = () => {
     console.log(`take me to robot ${bot.id}`);
     Navigate(`/robots/${id}`)

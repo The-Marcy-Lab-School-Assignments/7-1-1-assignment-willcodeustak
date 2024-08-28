@@ -32,20 +32,20 @@ Your goal is to meet at least 75% of these requirements to complete the assignme
 - [ ] The `BotSpecsPage` renders the robot whose `id` matches the `:id` portion of the URL
 - [ ] Navigating to any other URL renders the `NotFoundPage` component
 - [ ] Wherever the `GoHomeButton` component is rendered, clicking on the button navigates the user back to the `/` page.
-
+Score: 0/6
 **React Fundamentals**
-- [ ] Uses `BrowserRouter` in `main.jsx` to provide routing to the entire `App`
-- [ ] Uses `Routes` in `App.jsx` to render multiple Routes
-- [ ] Uses `Route` to render a component based on the URL
-- [ ] Uses `Link` to render a component that redirects the user upon click
+- [x] Uses `BrowserRouter` in `main.jsx` to provide routing to the entire `App`
+- [x] Uses `Routes` in `App.jsx` to render multiple Routes
+- [x] Uses `Route` to render a component based on the URL
+- [-] Uses `Link` to render a component that redirects the user upon click
 - [ ] Uses `useParams` to get parts of dynamic URL
 - [ ] Uses `useNavigate` to programmatically redirect the user
-
+Score: 3/6
 **Miscellaneous**
-- [ ] Props are extracted in child components using destructuring
-- [ ] At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
+- [x] Props are extracted in child components using destructuring
+- [x] At no point did you ever use any vanilla DOM JS methods (e.g. `document.querySelector` or `document.createElement`)
 - [ ] Bonus: Your project has some extra CSS styling!
-
+Score: 2/2
 When you are finished, push your code up to Github and submit on Canvas.
 
 ## Features:
