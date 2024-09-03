@@ -1,14 +1,14 @@
 // TODO: 
 // - Make the button navigate the user back to the home page
 /** FEEDBACK: The L on Link should be capital! This is why it is not working! */
-import { link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const GoHomeButton = () => {
   return (
-    <link to={'/'}>
+    <Link to={'/'}>
       <button className="ui button fluid">
-        Go Home
+       <p>Go Home</p> 
       </button>
-    </link>
+    </Link>
   )
 }
 

@@ -1,4 +1,4 @@
-
+import {useNavigate} from "react-router-dom";
 
 const BotClassIcon = (bot_class) => {
   switch (bot_class) {
@@ -20,10 +20,12 @@ const BotClassIcon = (bot_class) => {
 
 const BotCard = ({ bot }) => {
 /** FEEDBACK: Is this hwo we use navigate? What import is missing? Before we use navigate what should we be doing? */
-  const handleClick = () => {
+const navigate = useNavigate();
+const handleClick = () => {
     console.log(`take me to robot ${bot.id}`);
-    Navigate(`/robots/${id}`)
-  }
+    navigate(`/robots/${bot.id}`);
+  };
+
 
   return (
     <div className="ui card" onClick={handleClick}>

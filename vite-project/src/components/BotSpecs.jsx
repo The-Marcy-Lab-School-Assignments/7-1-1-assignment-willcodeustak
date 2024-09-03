@@ -15,7 +15,7 @@ const BotSpecs = () => {
   // TIP: remember that the `id` from the URL is a string
   // here we are hard-coding the id. How can you get it from the URL?
   /** FEEDBACK: Where should we be pulling id from? */
-  const { id }
+  const { id } = useParams()
   const bot = robots.find((robot) => robot.id === id)
   if (!bot) return <NotFoundPage />
 
@@ -57,8 +57,8 @@ const BotSpecs = () => {
               <div className="ui three column centered grid">
                 <div className="row">
                   <div className="column">
-                    <i className="icon large circular red heartbeat" />
-                    <strong>{bot.health}</strong>
+                    <i className="icon large circular red heartbeat"  />
+                    <strong> {bot.health}</strong>
                   </div>
                   <div className="column">
                     <i className="icon large circular yellow lightning" />
